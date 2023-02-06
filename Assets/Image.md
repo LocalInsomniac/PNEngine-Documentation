@@ -1,6 +1,6 @@
 # Image
 
-Images are PNG files used for GUI graphics and/or textures for primitives and materials. They are located in `data\images` and may come with an optional JSON file that tells PN Engine how the image should be displayed in-game.
+Images are PNG files used for GUI graphics and/or textures for primitives and materials. They are located in `data\images` and may come with an optional JSON file that tells PNEngine how the image should be displayed in-game.
 
 An image will be automatically loaded if the material that uses it gets loaded.
 

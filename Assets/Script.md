@@ -6,4 +6,4 @@ Scripts can also have arguments passed to them when executed, and can be paused 
 
 PN Engine uses a fork of Tiny Expression Runtime to allow level scripting. The scripting language is very similar to that of Game Maker Language.
 
-For more information about scripting, see **Scripting**.
+For more information about scripting, see [Scripting](https://github.com/LocalInsomniac/PNEngine-Documentation/tree/main/Scripting).

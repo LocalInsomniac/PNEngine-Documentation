@@ -17,7 +17,7 @@ While instance and struct variables and arrays can be directly accessed, there a
 - [`variable_struct_names_count(struct_id)`](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Variable_Functions/variable_struct_names_count.htm)
 - [`instanceof(struct_id)`](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Variable_Functions/instanceof.htm)
 
-*`global` is not exposed to scripting.
+*GameMaker's `global` is not exposed to scripting.
 
 ## Arrays
 

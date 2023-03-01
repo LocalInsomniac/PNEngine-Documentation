@@ -17,4 +17,4 @@ level's session.
 
 - `event_wait(ticks)` - Pauses the execution of the script's event handler until the specified amount of ticks have passed.
 - `event_handle(event, [args])` - Creates a new event handler with optional arguments passed to it.
-- `event_invoker()` - Returns the actor that triggered the script's event handler. For EventTriggers this redirects to the actor that touched it.
+- `event_invoker()` - Returns the generic object or actor that created the script's event handler. For EventTriggers this redirects to the actor that touched it.

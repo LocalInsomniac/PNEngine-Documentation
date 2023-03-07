@@ -10,3 +10,5 @@ Sounds can be 8-bit or 16-bit, mono or stereo WAV files with each having an opti
 | -------- | ---- | ------- | ----------- |
 | `pitch_high` | Float | `1` | The highest random pitch offset when played. |
 | `pitch_low` | Float | `1` | The lowest random pitch offset when played. |
+| `loop_start` | Float | `N/A` | The starting loop point in seconds. |
+| `loop_end` | Float | `N/A` | The ending loop point in seconds. |

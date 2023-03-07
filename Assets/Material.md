@@ -18,4 +18,4 @@ A material will be automatically loaded if the model that uses it gets loaded.
 | `wind` | Float | `0` | Determines how much the material is affected by the level's wind. |
 | `wind_lock_bottom` | Float | `1` | Determines how much of the material's bottom is unaffected by the wind. |
 | `wind_speed` | Float | `1` | The swaying speed of the material under the wind. |
-| `color` | Integer or Array | `16777215` | The color to tint the material's texture with. Integers are considered BGR values and arrays have a red, green, blue and optional alpha component. |
+| `color` | Integer or Array | `16777215`, `[1, 1, 1]` or `[1, 1, 1, 1]` | The color to tint the material's texture with. Integers are considered BGR values and arrays have a red, green, blue and optional alpha component. |

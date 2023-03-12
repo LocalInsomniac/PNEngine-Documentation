@@ -4,7 +4,7 @@ PNEngine is a GameMaker framework created by [Can't Sleep](https://localinsomnia
 
 ## Libraries
 
-PNEngine makes use of the following libraries:
+PNEngine makes use of the following GameMaker libraries:
 
 | Library | Description | Context |
 | ------- | ----------- | ------- |
@@ -12,6 +12,7 @@ PNEngine makes use of the following libraries:
 | [Input](https://github.com/JujuAdams/Input) | Comprehensive cross-platform input library. | Used for user input, rebinding and hotswapping. |
 | [input-string](https://github.com/offalynne/input-string) | Multi-platform text entry utility. | Used for debugging, i.e. inputting console prompts. |
 | [Lexicon](https://github.com/tabularelf/lexicon) | Localization system that simplifies adding translations. | Used for multi-language support. |
+| [NekoPresence](https://github.com/nkrapivin/NekoPresence) | A Discord Rich Presence extension. | Used for showing the user's current game state on Discord. |
 | PNAudio | Layer-based sound and music playback library. | Used for handling world and UI sounds as well as music tracks. |
 | PNCollisions | Fast and simple 3D collision system. | Used for colliding with static and moving level geometry. |
 | [Scribble](https://github.com/JujuAdams/scribble) | Modern text renderer. | Used for text formatting, i.e. fonts, colors and effects. |

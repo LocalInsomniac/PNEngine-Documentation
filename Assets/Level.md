@@ -24,7 +24,7 @@ it's assigned to or using an Event Trigger.
 | `events` | Array | `N/A` | An array containing the structs of the level's events. For properties, see [Event Properties](#event-properties). |
 | `assets` | Array | `N/A` | An array containing the names of the assets to manually load when entering the level. Note that this should only be used for assets that are not in the level and are required for level scripting. |
 
-## Directional Light Properties
+### Directional Light Properties
 
 | Property | Type | Default | Description |
 | -------- | ---- | ------- | ----------- |
@@ -32,7 +32,7 @@ it's assigned to or using an Event Trigger.
 | `normal` | Array | `[0, 0, -1]` | The normal vector for the light to face toward. |
 | `color` | Integer or Array | `16777215`, `[1, 1, 1]` or `[1, 1, 1, 1]` | The color of the light. Integers are considered BGR values and arrays have a red, green, blue and optional alpha component. |
 
-## Room Properties
+### Room Properties
 
 | Property | Type | Default | Description |
 | -------- | ---- | ------- | ----------- |
@@ -41,7 +41,7 @@ it's assigned to or using an Event Trigger.
 | `actors` | Array | `N/A` | An array containing the structs of the room's actors. For properties, see [Room Actor Properties](#room-actor-properties). |
 | `event` | Integer | `N/A` | The ID of the event to trigger upon entering the room. |
 
-### Room Actor Properties
+#### Room Actor Properties
 
 | Property | Type | Default | Description |
 | -------- | ---- | ------- | ----------- |
@@ -54,14 +54,14 @@ it's assigned to or using an Event Trigger.
 | `persistent` | Boolean | `0` | Whether or not the actor will stay destroyed upon re-entering the room. |
 | `special` | Struct | `N/A` | The special properties of the actor, which may vary based on its type. |
 
-## Generic Object Properties
+### Generic Object Properties
 
 | Property | Type | Default | Description |
 | -------- | ---- | ------- | ----------- |
 | `type` | String | `N/A` | The generic object's type without the `gen`-prefix. |
 | `special` | Struct | `N/A` | The special properties of the generic object, which may vary based on its type. |
 
-## Event Properties
+### Event Properties
 
 | Property | Type | Default | Description |
 | -------- | ---- | ------- | ----------- |

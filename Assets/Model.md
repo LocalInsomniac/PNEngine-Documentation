@@ -50,7 +50,7 @@ The total size of each triangle is 48 bytes.
 | `collisions` | Array | `N/A` | See [Collision Properties](#collision-properties) |
 | `animations` | Array | `N/A` | See [Animation Properties](#animation-properties) |
 
-## Submodel Properties
+### Submodel Properties
 
 Each submodel is defined as a struct in the `submodels` array with the following properties:
 
@@ -59,7 +59,7 @@ Each submodel is defined as a struct in the `submodels` array with the following
 | `submodel` | String | `N/A` | The name of the submodel file. |
 | `materials` | Array | `N/A` | An array of the names of the materials the submodel can use. |
 
-## Collision Properties
+### Collision Properties
 
 Each collision mesh is defined as a struct in the `collisions` array with the following properties:
 
@@ -73,7 +73,7 @@ Each collision mesh is defined as a struct in the `collisions` array with the fo
 | `collision_vision` | Boolean | `true` | Determines if this mesh is see-through. |
 | `collision_camera` | Boolean | `true` | Determines if the camera can collide with this mesh. |
 
-## Animation Properties
+### Animation Properties
 
 Each animation is defined as a struct in the `submodels` array with the following properties:
 
